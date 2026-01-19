@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diet Suggestions</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Diet Suggestions</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="patient.html">Patient Details</a>
+        <a href="diet.html">Diet Plan</a>
+    </nav>
+</header>
+
+<section>
+    <label>Select Health Condition</label><br><br>
+    <select id="condition">
+        <option value="">Select</option>
+        <option value="diabetes">Diabetes</option>
+        <option value="bp">Blood Pressure</option>
+        <option value="obesity">Obesity</option>
+    </select>
+
+    <br><br>
+    <button onclick="showDiet()">Show Diet</button>
+
+    <div id="result" style="margin-top:20px;"></div>
+</section>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
